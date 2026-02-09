@@ -1,0 +1,39 @@
+Qual a diferenca de geracao de codigo em compile time e em run time 
+O que eh STL? Entendo que tem a ver com containers, mas n sei o que eh
+template vs overload
+
+
+Conceito	Quando decide	Usa herança	Usa virtual	Gera código
+Template	Compile time	❌		❌		Sim
+Overload	Compile time	❌		❌		Sim
+Override	Run time	✅		✅		Não
+
+Diferenca de ifndef+define+endif e pragma once
+
+
+resize() vs reserve(), um tem a ver com o outro?
+Pq no ex01 o melhor eh o vector, e list e deque n sao bons
+Declaracao eh no hpp, Implementacao eh no .cpp, e o que eh assinatura?
+explicit no construtor da classe?
+
+
+
+Ao clicar com ctrl em cima de um container, por exemplo std::stack no vscode, ele me leva para um arquivo chamado stack<_Tp, _Sequence>, que esta dentro de std, e dentro de stl_stack.h, ou seja, me levou para uma biblioteca
+
+
+
+
+Rebalancemaneto de carteira:
+BBAS3 - 2,9% de lucro (641 acoes)
+VALE3 - 34,5% lucro (155 acoes)
+SAPR4 - 67,2% lucro (1400 acoes)
+PETR4 - 20,6% lucro (237 acoes)
+ALLD3 - 5,5% de prejuizo (638 acoes)
+BBDC3 - 55,9% de lucro (268 acoes)
+WEGE3 - 45,8% de lucro (72 acoes)
+EGIE3 - 16% de lucro (105 acoes)
+GMAT3 - 9% de prejuizo (550 acoes)
+KLBN4 - 12,6% delucro (611 acoes)
+BBSE3 - 22,1% de lucro (60 acoes)
+CMIG3 - 30% de lucro (116 acoes)
+ABCB4 - 61,9% de lucro (47 acoes)
