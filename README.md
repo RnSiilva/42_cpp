@@ -1,41 +1,42 @@
-content = """# 🚀 C++ Modules - 42 Network
+🚀 C++ Modules - 42 Network
 
-Este repositório contém a série de módulos de C++ da 42, focada na transição do paradigma procedural (C) para a Programação Orientada a Objetos (CPP), explorando desde a sintaxe básica até o uso avançado da STL.
+This repository contains the C++ module series from 42 Network, focused on transitioning from procedural programming (C) to Object-Oriented Programming (CPP), exploring everything from basic syntax to advanced STL usage.
 
 ---
 
-## 📚 Resumo dos Módulos
+## 📚 Modules Overview
 
-| Módulo | Foco Principal | Conceitos Chave |
+| Module | Main Focus | Key Concepts |
 | :--- | :--- | :--- |
-| **CPP 00** | Namespaces & Classes | Sintaxe básica, `std::cout`, `std::cin`, e instanciação de classes. |
-| **CPP 01** | Memória & Ponteiros | Alocação (new/delete), referências e ponteiros para membros. |
-| **CPP 02** | Polimorfismo Ad-hoc | Overloading de operadores e a **Forma Canônica Ortodoxa**. |
-| **CPP 03** | Herança | Hierarquia de classes (ClapTrap, ScavTrap, FragTrap). |
-| **CPP 04** | Polimorfismo de Subtipo | Classes abstratas, interfaces e funções virtuais. |
-| **CPP 05** | Exceções | Blocos try/catch e criação de classes de erro customizadas. |
-| **CPP 06** | Casts | Conversão de tipos usando `static_cast`, `dynamic_cast`, etc. |
-| **CPP 07** | Templates | Programação genérica com funções e classes template. |
-| **CPP 08** | Containers & Iterators | Uso de algoritmos da STL, listas, vetores e mapas. |
-| **CPP 09** | STL Avançado | Resolução de problemas complexos (Bitcoin, PmergeMe) com a STL. |
+| **CPP 00** | Namespaces & Classes | Basic syntax, std::cout, std::cin, and class instantiation. |
+| **CPP 01** | Memory & Pointers | Allocation (new/delete), references, and pointers to members. |
+| **CPP 02** | Ad-hoc Polymorphism | Operator overloading and the **Orthodox Canonical Form**. |
+| **CPP 03** | Inheritance | Class hierarchy (ClapTrap, ScavTrap, FragTrap). |
+| **CPP 04** | Subtype Polymorphism | Abstract classes, interfaces, and virtual functions. |
+| **CPP 05** | Exceptions | Try/catch blocks and custom exception classes. |
+| **CPP 06** | Casts | Type conversion using static_cast, dynamic_cast, etc. |
+| **CPP 07** | Templates | Generic programming with function and class templates. |
+| **CPP 08** | Containers & Iterators | STL algorithms, lists, vectors, and maps. |
+| **CPP 09** | Advanced STL | Complex problem solving (Bitcoin, PmergeMe) using STL. |
 
 ---
 
-## 🛠️ Regras de Ouro (C++98)
+## 🛠️ Requirements (C++98)
 
-Todos os módulos seguem o padrão **C++98**. Isso significa que:
-* Não é permitido o uso de bibliotecas externas (C++11 em diante é proibido).
-* A **Forma Canônica de classe** é obrigatória a partir do Módulo 02:
-    1. Construtor padrão
-    2. Construtor de cópia
-    3. Operador de atribuição
-    4. Destrutor
+All modules must be compliant with the **C++98 standard**.
+- No external libraries (C++11 and later are forbidden).
+- The **Orthodox Canonical Class Form** is mandatory from Module 02 onwards:
+    1. Default constructor
+    2. Copy constructor
+    3. Copy assignment operator
+    4. Destructor
 
 ---
 
-## 💻 Como Compilar
+## 💻 Compilation
 
-Cada módulo possui seu próprio `Makefile`. Para testar, basta entrar na pasta do exercício e rodar:
+Each module (and often each exercise) has its own `Makefile`. To compile and run:
 
 ```bash
-make && ./nome_do_executavel
+make
+./program_name
